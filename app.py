@@ -176,6 +176,3 @@ if st.button("Predict 10-year CHD risk"):
         st.warning("Risk band: **Intermediate (30-49%)**")
     else:
         st.error("Risk band: **High (50%+)**")
-
-    # Show the underlying model class decision at a 0.5 threshold
-    st.caption(f"Model class prediction (0/1 @0.5 threshold): {pred_label}")
