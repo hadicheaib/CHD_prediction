@@ -2,4 +2,3 @@
 __pycache__/
 pip_install.log
 notebook_snippets.txt
-*.pkl
